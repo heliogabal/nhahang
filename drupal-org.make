@@ -186,7 +186,7 @@ projects[transliteration][subdir] = "contrib"
 projects[picture][version] = "2.4"
 projects[picture][subdir] = "contrib"
 
-projects[rules][version] = "2.6"
+projects[rules][version] = "2.7"
 projects[rules][subdir] = "contrib"
 projects[rules][patch][] = https://drupal.org/files/rules-fix-schema-defaults-1309144-8.patch
 projects[rules][patch][] = https://drupal.org/files/issues/rules-events-include-2120421-30.patch
@@ -268,7 +268,7 @@ projects[commerce_fieldgroup_panes][subdir] = "commerce"
 projects[dc_co_pages][version] = 1.0
 projects[dc_co_pages][subdir] = "commerce"
 
-projects[commerce_discount][version] = 1.0-alpha3
+projects[commerce_discount][version] = 1.0-alpha4
 projects[commerce_discount][subdir] = "commerce"
 
 projects[commerce_checkout_progress][version] = 1.3
@@ -280,7 +280,7 @@ projects[commerce_extra_price_formatters][subdir] = "commerce"
 projects[commerce_extra_panes][version] = "1.1"
 projects[commerce_extra_panes][subdir] = "commerce"
 
-projects[commerce_checkout_redirect][version] = 2.0-beta1
+projects[commerce_checkout_redirect][version] = 2.0-rc1
 projects[commerce_checkout_redirect][subdir] = "commerce"
 
 projects[commerce_paypal][subdir] = "commerce"
@@ -296,7 +296,7 @@ projects[commerce_billy_mail][version] = "1.x-dev"
 projects[commerce_billy_mail][subdir] = "commerce"
 
 projects[commerce_message][subdir] = "commerce"
-projects[commerce_message][version] = 1.0-rc1
+projects[commerce_message][version] = 1.0-rc3
 
 projects[commerce_search_api][subdir] = "commerce"
 projects[commerce_search_api][version] = 1.3
@@ -327,7 +327,7 @@ projects[commerce_donate][subdir] = "commerce"
 projects[commerce_feeds][version] = "1.3"
 projects[commerce_feeds][subdir] = "commerce"
 
-projects[commerce_stock][version] = "2.0-rc1"
+projects[commerce_stock][version] = "2.0"
 projects[commerce_stock][subdir] = "commerce"
 
 projects[commerce_option][version] = "1.0-beta2"
@@ -362,26 +362,26 @@ projects[select_or_other][subdir] = "contrib"
 projects[visualization][version] = "1.0-alpha1"
 projects[visualization][subdir] = "contrib"
 
-projects[commerce_reports][version] = "4.0-alpha1"
+projects[commerce_reports][version] = "4.0-alpha3"
 projects[commerce_reports][subdir] = "commerce"
 
 ;projects[commerce_invoice_receipt][version] = "1.1"
 ;projects[commerce_invoice_receipt][subdir] = "commerce"
 
-projects[views_megarow][version] = 1.2
+projects[views_megarow][version] = 1.3
 projects[views_megarow][subdir] = "contrib"
 
 projects[inline_entity_form][version] = 1.5
 projects[inline_entity_form][subdir] = "contrib"
 
-projects[inline_conditions][version] = 1.0-alpha3
+projects[inline_conditions][version] = 1.0-alpha4
 projects[inline_conditions][subdir] = "contrib"
 
 projects[physical][version] = 1.x-dev
 projects[physical][subdir] = "contrib"
 projects[physical][patch][] = https://drupal.org/files/1372070-integrate_with_feeds.patch
 
-projects[charts][version] = "2.0-beta5"
+projects[charts][version] = "2.0-rc1"
 projects[charts][subdir] = "contrib"
 
 projects[message][version] = 1.9
@@ -391,17 +391,17 @@ projects[message_notify][version] = 2.5
 projects[message_notify][subdir] = "contrib"
 
 ; Search related modules.
-projects[search_api][version] = 1.11
+projects[search_api][version] = 1.13
 projects[search_api][subdir] = "contrib"
 
-projects[search_api_db][version] = 1.2
+projects[search_api_db][version] = 1.3
 projects[search_api_db][subdir] = "contrib"
 
 projects[search_api_ranges][version] = 1.5
 projects[search_api_ranges][subdir] = "contrib"
 ;projects[search_api_ranges][patch][] = "http://drupal.org/files/search_api_ranges-rewrite-data-alteration-callback-2001846-3.patch"
 
-projects[facetapi][version] = 1.3
+projects[facetapi][version] = 1.5
 projects[facetapi][subdir] = "contrib"
 projects[facetapi][patch][] = "http://drupal.org/files/facetapi-1616518-13-show-active-term.patch"
 
@@ -414,7 +414,7 @@ projects[facetapi_tagcloud][subdir] = "contrib"
 projects[search_api_sorts][version] = 1.5
 projects[search_api_sorts][subdir] = "contrib"
 
-projects[search_api_solr][version] = "1.4"
+projects[search_api_solr][version] = "1.5"
 projects[search_api_solr][subdir] = "contrib"
 
 projects[search_api_autocomplete][version] = "1.0"
