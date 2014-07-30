@@ -445,6 +445,11 @@ libraries[chosen][download][url] = "https://github.com/harvesthq/chosen/releases
 libraries[chosen][directory_name] = "chosen"
 libraries[chosen][destination] = "libraries"
 
+; emogrifier
+libraries[emogrifier][download][type] = "get"
+libraries[emogrifier][download][url] = https://github.com/jjriv/emogrifier/blob/master/Classes/Emogrifier.php
+libraries[emogrifier][directory_name] = "emogrifier"
+libraries[emogrifier][destination] = "libraries"
 ; +++++ Translations +++++
 
 translations[] = de
