@@ -347,6 +347,9 @@ projects[context][subdir] = "contrib"
 projects[emogrifier][version] = "1.18"
 projects[emogrifier][subdir] = "contrib"
 
+projects[entityreference][version] = "1.1"
+projects[entityreference][subdir] = "contrib"
+
 projects[feeds][version] = "2.0-alpha8"
 projects[feeds][subdir] = "contrib"
 
@@ -370,6 +373,19 @@ projects[inline_entity_form][subdir] = "contrib"
 
 projects[inline_conditions][version] = 1.0-alpha3
 projects[inline_conditions][subdir] = "contrib"
+
+projects[physical][version] = 1.x-dev
+projects[physical][subdir] = "contrib"
+projects[physical][patch][] = https://drupal.org/files/1372070-integrate_with_feeds.patch
+
+projects[charts][version] = "2.0-beta5"
+projects[charts][subdir] = "contrib"
+
+projects[message][version] = 1.9
+projects[message][subdir] = "contrib"
+
+projects[message_notify][version] = 2.5
+projects[message_notify][subdir] = "contrib"
 
 ; Search related modules.
 projects[search_api][version] = 1.11
