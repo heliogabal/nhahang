@@ -265,7 +265,7 @@ libraries[dompdf][destination] = "libraries"
 ; +++++ Translations +++++
 
 translations[] = de
-;translations[] = vi
+translations[] = vi
 
 ; +++++ Features +++++
 ;projects[checkout_shipping_taxes][type] = module
