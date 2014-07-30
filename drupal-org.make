@@ -297,6 +297,7 @@ projects[commerce_billy_mail][subdir] = "commerce"
 
 projects[commerce_message][subdir] = "commerce"
 projects[commerce_message][version] = 1.0-rc3
+projects[commerce_message][patch][] = http://www.drupal.org/files/issues/2171201-undefined-property-module-MessageType-6.patch
 
 projects[commerce_search_api][subdir] = "commerce"
 projects[commerce_search_api][version] = 1.3
