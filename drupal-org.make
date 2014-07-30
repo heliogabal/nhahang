@@ -159,6 +159,9 @@ projects[robotstxt][subdir] = "contrib"
 projects[socialshareprivacy][version] = "1.11"
 projects[socialshareprivacy][subdir] = "contrib"
 
+projects[system_status][version] = "2.7"
+projects[system_status][subdir] = "contrib"
+
 projects[title][version] = "1.0-alpha7"
 projects[title][subdir] = "contrib"
 

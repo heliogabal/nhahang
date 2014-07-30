@@ -35,6 +35,7 @@ dependencies[] = path
 ;dependencies[] = rdf
 dependencies[] = shortcut
 dependencies[] = system
+dependencies[] = system_status
 dependencies[] = taxonomy
 dependencies[] = text
 dependencies[] = user
