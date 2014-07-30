@@ -225,7 +225,7 @@ projects[commerce][patch][] = "http://drupal.org/files/undefined-hostname.patch"
 
 projects[commerce_features][version] = 1.0
 projects[commerce_features][subdir] = "commerce"
-;projects[commerce_features][patch][] = "http://drupal.org/files/1402762_export_flat_rate_commerce_features-6.patch"
+projects[commerce_features][patch][] = "http://drupal.org/files/1402762_export_flat_rate_commerce_features-6.patch"
 projects[commerce_features][patch][] = "http://drupal.org/files/issues/1973602-4-commerce_features_checkout_panes.patch"
 projects[commerce_features][patch][] = "https://drupal.org/files/commerce_features-export-shipping-rate-1402762-8.patch"
 

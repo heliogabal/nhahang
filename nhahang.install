@@ -10,6 +10,7 @@ function nhahang_install() {
   // Enable some blog blocks.
   $default_theme = 'nhahang_theme';
   $admin_theme = 'shiny';
+
   // disable all themes
   db_update('system')
     ->fields(array('status' => 0))
@@ -278,5 +279,9 @@ function nhahang_install() {
   node_access_needs_rebuild(FALSE);
   // ignore any other install messages
   drupal_get_messages();
+}
+
+function commerce_default_currency() {
+  return variable_get('commerce_default_currency', 'EUR');
 }
 
