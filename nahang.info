@@ -84,7 +84,6 @@ dependencies[] = jcaption
 dependencies[] = job_scheduler
 dependencies[] = libraries
 dependencies[] = linkit
-dependencies[] = linkit_target
 dependencies[] = login_destination
 dependencies[] = login_security
 ;dependencies[] = mediaelement
@@ -96,12 +95,12 @@ dependencies[] = socialshareprivacy
 dependencies[] = token
 dependencies[] = transliteration
 ; Performance and scalability
-dependencies[] = entitycache
+;dependencies[] = entitycache
 ; Picture
 dependencies[] = picture
 ; Styles
-dependencies[] = file_styles
-dependencies[] = styles
+;dependencies[] = file_styles
+;dependencies[] = styles
 ; User interface
 dependencies[] = wysiwyg
 ; Views
