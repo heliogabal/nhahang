@@ -102,8 +102,8 @@ projects[l10n_update][subdir] = "contrib"
 projects[better_formats][version] = "1.0-beta1"
 projects[better_formats][subdir] = "contrib"
 
-;projects[breakpoints][version] = "1.2"
-;projects[breakpoints][subdir] = "contrib"
+projects[breakpoints][version] = "1.2"
+projects[breakpoints][subdir] = "contrib"
 
 projects[colorbox][version] = "2.7"
 projects[colorbox][subdir] = "contrib"
