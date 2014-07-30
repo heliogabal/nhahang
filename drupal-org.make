@@ -486,7 +486,7 @@ libraries[chosen][destination] = "libraries"
 
 ; emogrifier
 libraries[emogrifier][download][type] = "get"
-libraries[emogrifier][download][url] = https://github.com/jjriv/emogrifier/blob/master/Classes/Emogrifier.php
+libraries[emogrifier][download][url] = https://raw.githubusercontent.com/jjriv/emogrifier/master/Classes/Emogrifier.php
 libraries[emogrifier][directory_name] = "emogrifier"
 libraries[emogrifier][destination] = "libraries"
 ; +++++ Translations +++++
