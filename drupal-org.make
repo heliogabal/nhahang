@@ -206,61 +206,19 @@ projects[webform][subdir] = "contrib"
 
 ; +++++ Themes +++++
 
-; foodjustice_blog
-;projects[foodjustice_blog][type] = "theme"
-;projects[foodjustice_blog][version] = "1.6"
-;projects[foodjustice_blog][subdir] = "contrib"
-
-; rubik
-;projects[rubik][type] = "theme"
-;projects[rubik][version] = "4.0-beta8"
-;projects[rubik][subdir] = "contrib"
-
 ; shiny
 projects[shiny][type] = "theme"
 projects[shiny][version] = "1.5"
 projects[shiny][subdir] = "contrib"
-
-; mothership
-;projects[mothership][type] = "theme"
-;projects[mothership][version] = "2.10"
-
-; luise
-;projects[luise][type] = "theme"
-;projects[luise][download][type] = "git"
-;projects[luise][download][url] = "http://github.com/heliogabal/luise.git"
-;projects[luise][download][branch] = "master"
-;projects[luise][download][revision] = "b4b38c3"
-
-; tao
-;projects[tao][type] = "theme"
-;projects[tao][version] = "3.0-beta4"
-;projects[tao][subdir] = "contrib"
-
-; andromeda
-;projects[andromeda][type] = "theme"
-;projects[andromeda][version] = "2.x-dev"
-;projects[andromeda][subdir] = "contrib"
 
 ; omega
 projects[omega][type] = "theme"
 projects[omega][version] = "4.2"
 projects[omega][subdir] = "contrib"
 
-; poultry
-;projects[poultry][type] = "theme"
-;projects[poultry][version] = "1.0"
-;projects[poultry][subdir] = "contrib"
-
-; responsive_blog
-;projects[responsive_blog][type] = "theme"
-;projects[responsive_blog][version] = "1.6"
-;projects[responsive_blog][subdir] = "contrib"
-
-; tine
-;projects[tine][type] = "theme"
-;projects[tine][version] = "2.x-dev"
-;projects[tine][subdir] = "contrib"
+;projects[nhahang_theme][type] = "theme"
+;projects[nhahang_theme][download][type] = "git"
+;projects[nhahang_theme][download][url] = "https://github.com/heliogabal/nhahang_theme.git"
 
 ; +++++ Libraries +++++
 
@@ -303,3 +261,11 @@ libraries[dompdf][download][type] = "get"
 libraries[dompdf][download][url] = "http://dompdf.googlecode.com/files/dompdf_0-6-0_beta3.tar.gz"
 libraries[dompdf][directory_name] = "dompdf"
 libraries[dompdf][destination] = "libraries"
+
+; +++++ Features +++++
+;projects[checkout_shipping_taxes][type] = module
+;projects[checkout_shipping_taxes][version] = "1.5"
+;projects[checkout_shipping_taxes][download][type] = "get"
+;;projects[checkout_shipping_taxes][download][url] = "https://github.com/heliogabal/checkout_shipping_taxes/archive/7.x-1.0.zip"
+;projects[checkout_shipping_taxes][location] = http://features.otro-mundo.org/fserver
+;projects[checkout_shipping_taxes][subdir] = "features"
