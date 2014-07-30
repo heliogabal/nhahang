@@ -121,6 +121,7 @@ dependencies[] = views_bulk_operations
 dependencies[] = flexslider
 dependencies[] = views_ui
 dependencies[] = views_megarow
+dependencies[] = views_date_format_sql
 ; Webform
 dependencies[] = webform
 ; Features

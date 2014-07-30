@@ -209,6 +209,9 @@ projects[views][subdir] = "contrib"
 projects[views_bulk_operations][version] = "3.2"
 projects[views_bulk_operations][subdir] = "contrib"
 
+projects[views_date_format_sql][version] = "3.1"
+projects[views_date_format_sql][subdir] = "contrib"
+
 projects[flexslider][version] = "2.0-alpha3"
 projects[flexslider][subdir] = "contrib"
 
