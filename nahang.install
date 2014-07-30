@@ -6,7 +6,7 @@
  */
 function nahang_install() {
   // Enable some blog blocks.
-  $default_theme = 'shiny';
+  $default_theme = 'nhahang_theme';
   $admin_theme = 'shiny';
   // disable all themes
   db_update('system')

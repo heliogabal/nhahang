@@ -216,9 +216,9 @@ projects[omega][type] = "theme"
 projects[omega][version] = "4.2"
 projects[omega][subdir] = "contrib"
 
-;projects[nhahang_theme][type] = "theme"
-;projects[nhahang_theme][download][type] = "git"
-;projects[nhahang_theme][download][url] = "https://github.com/heliogabal/nhahang_theme.git"
+projects[nhahang_theme][type] = "theme"
+projects[nhahang_theme][download][type] = "git"
+projects[nhahang_theme][download][url] = "https://github.com/heliogabal/nhahang_theme.git"
 
 ; +++++ Libraries +++++
 
