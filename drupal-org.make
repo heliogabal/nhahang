@@ -496,9 +496,9 @@ translations[] = de
 translations[] = vi
 
 ; +++++ Features +++++
-;projects[checkout_shipping_taxes][type] = module
-;projects[checkout_shipping_taxes][version] = "1.5"
-;projects[checkout_shipping_taxes][download][type] = "get"
-;;projects[checkout_shipping_taxes][download][url] = "https://github.com/heliogabal/checkout_shipping_taxes/archive/7.x-1.0.zip"
-;projects[checkout_shipping_taxes][location] = http://features.otro-mundo.org/fserver
-;projects[checkout_shipping_taxes][subdir] = "features"
+projects[prod][type] = module
+;projects[prod][version] = "1.5"
+projects[prod][download][type] = "git"
+projects[prod][download][url] = "https://github.com/HanoiBerlin/prod.git"
+;projects[prod][location] = http://features.otro-mundo.org/fserver
+;projects[prod][subdir] = "features"
