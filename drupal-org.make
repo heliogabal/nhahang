@@ -286,6 +286,10 @@ libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEd
 ;libraries[nivo-slider][download][url] = "http://github.com/downloads/gilbitron/Nivo-Slider/nivo-slider2.7.zip"
 
 ; flexslider
+libraries[flexslider][download][type] = "get"
+libraries[flexslider][download][url] = "http://github.com/woothemes/FlexSlider/zipball/master"
+libraries[flexslider][directory_name] = "flexslider"
+libraries[flexslider][type] = "library"
 
 ; socialshareprivacy
 libraries[socialshareprivacy][directory_name] = "socialshareprivacy"
@@ -293,3 +297,9 @@ libraries[socialshareprivacy][type] = "library"
 libraries[socialshareprivacy][destination] = "libraries"
 libraries[socialshareprivacy][download][type] = "get"
 libraries[socialshareprivacy][download][url] = "http://www.heise.de/extras/socialshareprivacy/jquery.socialshareprivacy.tar.gz"
+
+; dompdf for commerce billy
+libraries[dompdf][download][type] = "get"
+libraries[dompdf][download][url] = "http://dompdf.googlecode.com/files/dompdf_0-6-0_beta3.tar.gz"
+libraries[dompdf][directory_name] = "dompdf"
+libraries[dompdf][destination] = "libraries"
