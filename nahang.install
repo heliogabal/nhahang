@@ -5,8 +5,8 @@
  * Perform actions to set up the site for this profile.
  */
 function nahang_install() {
-  include_once DRUPAL_ROOT . 'profiles/nahang/nahang.install';
-  nahang_install();
+ // include_once DRUPAL_ROOT . 'profiles/nahang/nahang.install';
+  // nahang_install();
   // Enable some blog blocks.
   $default_theme = 'nhahang_theme';
   $admin_theme = 'shiny';
