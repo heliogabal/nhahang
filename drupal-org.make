@@ -262,6 +262,11 @@ libraries[dompdf][download][url] = "http://dompdf.googlecode.com/files/dompdf_0-
 libraries[dompdf][directory_name] = "dompdf"
 libraries[dompdf][destination] = "libraries"
 
+; +++++ Translations +++++
+
+translations[] = de
+translations[] = vi
+
 ; +++++ Features +++++
 ;projects[checkout_shipping_taxes][type] = module
 ;projects[checkout_shipping_taxes][version] = "1.5"
