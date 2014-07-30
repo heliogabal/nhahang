@@ -232,8 +232,8 @@ projects[commerce_features][patch][] = "https://drupal.org/files/commerce_featur
 projects[commerce_addressbook][version] = 2.0-rc7
 projects[commerce_addressbook][subdir] = "commerce"
 
-projects[commerce_bank_transfer][version] = "1.0-alpha3"
-projects[commerce_bank_transfer][subdir] = "commerce"
+;projects[commerce_bank_transfer][version] = "1.0-alpha3"
+;projects[commerce_bank_transfer][subdir] = "commerce"
 
 projects[commerce_billy][version] = "1.0-beta1"
 projects[commerce_billy][subdir] = "commerce"
@@ -241,8 +241,8 @@ projects[commerce_billy][subdir] = "commerce"
 projects[commerce_billy_mail][version] = "1.x-dev"
 projects[commerce_billy_mail][subdir] = "commerce"
 
-projects[commerce_cardonfile][version] = "2.0-beta2"
-projects[commerce_cardonfile][subdir] = "commerce"
+;projects[commerce_cardonfile][version] = "2.0-beta2"
+;projects[commerce_cardonfile][subdir] = "commerce"
 
 projects[commerce_checkout_login][version] = "1.x-dev"
 projects[commerce_checkout_login][subdir] = "commerce"
@@ -283,8 +283,8 @@ projects[commerce_extra_panes][subdir] = "commerce"
 projects[commerce_checkout_redirect][version] = 2.0-rc1
 projects[commerce_checkout_redirect][subdir] = "commerce"
 
-projects[commerce_paypal][subdir] = "commerce"
-projects[commerce_paypal][version] = 2.3
+;projects[commerce_paypal][subdir] = "commerce"
+;projects[commerce_paypal][version] = 2.3
 
 projects[commerce_backoffice][subdir] = "commerce"
 projects[commerce_backoffice][version] = 1.4
@@ -314,14 +314,14 @@ projects[commerce_bean][version] = 1.0-beta1
 projects[commerceguys_marketplace][version] = "1.0-beta4"
 projects[commerceguys_marketplace][subdir] = "commerce"
 
-projects[commerce_sofortbanking] = "1.0"
-projects[commerce_sofortbanking][subdir] = "commerce"
+;projects[commerce_sofortbanking] = "1.0"
+;projects[commerce_sofortbanking][subdir] = "commerce"
 
-projects[commerce_contributions][version] = "1.x-dev"
-projects[commerce_contributions][subdir] = "commerce"
+;projects[commerce_contributions][version] = "1.x-dev"
+;projects[commerce_contributions][subdir] = "commerce"
 
-projects[commerce_donate][version] = "1.x-dev"
-projects[commerce_donate][subdir] = "commerce"
+;projects[commerce_donate][version] = "1.x-dev"
+;projects[commerce_donate][subdir] = "commerce"
 ;projects[commerce_donate][patch][] = "https://drupal.org/files/commerce_donate-fix_deprecated_message.patch"
 
 projects[commerce_feeds][version] = "1.3"
