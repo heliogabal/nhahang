@@ -496,9 +496,9 @@ translations[] = de
 translations[] = vi
 
 ; +++++ Features +++++
-projects[prod][type] = module
+;projects[prod][type] = module
 ;projects[prod][version] = "1.5"
-projects[prod][download][type] = "git"
-projects[prod][download][url] = "https://github.com/HanoiBerlin/prod.git"
+;projects[prod][download][type] = "git"
+;projects[prod][download][url] = "https://github.com/HanoiBerlin/prod.git"
 ;projects[prod][location] = http://features.otro-mundo.org/fserver
 ;projects[prod][subdir] = "features"
