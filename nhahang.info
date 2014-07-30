@@ -1,5 +1,5 @@
-; Packaging information for nahang
-name = "nahang"
+; Packaging information for nhahang
+name = "nhahang"
 description = "Restaurant Distribution"
 exclusive = "1"
 core = "7.x"

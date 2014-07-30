@@ -5,14 +5,14 @@
  * Allows the profile to alter the site configuration form.
  */
 
-function nahang_profile_details(){
+function nhahang_profile_details(){
   $details['language'] = "en";
   return $details;
 }
 
-if (!function_exists("nahang_form_install_configure_form_alter")) {
-  function nahang_form_install_configure_form_alter(&$form, $form_state) {
-    $form['site_information']['site_name']['#default_value'] = 'Nahang Distro';
+if (!function_exists("nhahang_form_install_configure_form_alter")) {
+  function nhahang_form_install_configure_form_alter(&$form, $form_state) {
+    $form['site_information']['site_name']['#default_value'] = 'nhahang Distro';
     $form['site_information']['site_mail']['#default_value'] = 'rhalbmann@gmail.com';
 
   // Account information defaults
@@ -38,14 +38,14 @@ if (!function_exists("nahang_form_install_configure_form_alter")) {
 if (!function_exists("system_form_install_select_profile_form_alter")) {
   function system_form_install_select_profile_form_alter(&$form, $form_state) {
     foreach ($form['profile'] as $key => $element) {
-      $form['profile'][$key]['#value'] = 'nahang';
+      $form['profile'][$key]['#value'] = 'nhahang';
     }
   }
 }
 
-/*function nahang_install_tasks($install_state) {
+/*function nhahang_install_tasks($install_state) {
   return array(
-    'nahang_install_import_locales' => array(
+    'nhahang_install_import_locales' => array(
       'display_name' => 'Install additional languages',
       'display' => TRUE,
       'type' => 'batch',
@@ -56,7 +56,7 @@ if (!function_exists("system_form_install_select_profile_form_alter")) {
   $needs_translations = count($install_state['locales']) > 1 && !empty($install_state['parameters']['locale']) && $install_state['parameters']['locale'] != 'en';
 
   return array(
-    'nahang_import_translation' => array(
+    'nhahang_import_translation' => array(
       'display_name' => st('Set up translations'),
       'display' => $needs_translations,
       'run' => $needs_translations ? INSTALL_TASK_RUN_IF_NOT_COMPLETED : INSTALL_TASK_SKIP,
@@ -65,7 +65,7 @@ if (!function_exists("system_form_install_select_profile_form_alter")) {
   );
 }
 
-function nahang_install_import_locales(&$install_state) {
+function nhahang_install_import_locales(&$install_state) {
   include_once DRUPAL_ROOT . '/includes/locale.inc';
   include_once DRUPAL_ROOT . '/includes/iso.inc';
   $batch = array();
@@ -87,7 +87,7 @@ function nahang_install_import_locales(&$install_state) {
   }
   if (!empty($batch)) {
       // Remember components we cover in this batch set.
-      variable_set('nahang_install_import_locales', $batch['#components']);
+      variable_set('nhahang_install_import_locales', $batch['#components']);
       return $batch;
   }
 }*/
@@ -101,7 +101,7 @@ function nahang_install_import_locales(&$install_state) {
  *
  * Perform actions to set up the site for this profile.
  */
-/*function nahang_install_tasks_alter(&$tasks, $install_state) {
+/*function nhahang_install_tasks_alter(&$tasks, $install_state) {
   // Remove core steps for translation imports.
   unset($tasks['install_import_locales']);
   unset($tasks['install_import_locales_remaining']);*/
@@ -125,7 +125,7 @@ function nahang_install_import_locales(&$install_state) {
  * @param $install_state
  *   An array of information about the current installation state.
  */
-/*function nahang_import_translation(&$install_state) {
+/*function nhahang_import_translation(&$install_state) {
   // Enable installation language as default site language.
   include_once DRUPAL_ROOT . '/includes/locale.inc';
   $install_locale = $install_state['parameters']['locale'];
