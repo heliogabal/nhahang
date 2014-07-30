@@ -46,6 +46,9 @@ projects[addanother][subdir] = contrib
 projects[email][version] = "1.3"
 projects[email][subdir] = "contrib"
 
+projects[eva][version] = 1.2
+projects[eva][subdir] = "contrib"
+
 projects[job_scheduler][version] = "2.0-alpha3"
 projects[job_scheduler][subdir] = "contrib"
 
@@ -182,6 +185,11 @@ projects[transliteration][subdir] = "contrib"
 
 projects[picture][version] = "2.4"
 projects[picture][subdir] = "contrib"
+
+projects[rules][version] = "2.6"
+projects[rules][subdir] = "contrib"
+projects[rules][patch][] = https://drupal.org/files/rules-fix-schema-defaults-1309144-8.patch
+projects[rules][patch][] = https://drupal.org/files/issues/rules-events-include-2120421-30.patch
 
 ;projects[styles][version] = "2.0-alpha8"
 ;projects[styles][subdir] = "contrib"
@@ -339,6 +347,9 @@ projects[context][subdir] = "contrib"
 projects[emogrifier][version] = "1.18"
 projects[emogrifier][subdir] = "contrib"
 
+projects[feeds][version] = "2.0-alpha8"
+projects[feeds][subdir] = "contrib"
+
 projects[select_or_other][version] = "2.20"
 projects[select_or_other][subdir] = "contrib"
 
@@ -350,6 +361,15 @@ projects[commerce_reports][subdir] = "commerce"
 
 ;projects[commerce_invoice_receipt][version] = "1.1"
 ;projects[commerce_invoice_receipt][subdir] = "commerce"
+
+projects[views_megarow][version] = 1.2
+projects[views_megarow][subdir] = "contrib"
+
+projects[inline_entity_form][version] = 1.5
+projects[inline_entity_form][subdir] = "contrib"
+
+projects[inline_conditions][version] = 1.0-alpha3
+projects[inline_conditions][subdir] = "contrib"
 
 ; Search related modules.
 projects[search_api][version] = 1.11

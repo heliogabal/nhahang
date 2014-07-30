@@ -51,6 +51,7 @@ dependencies[] = ds
 dependencies[] = ds_extras
 ; Fields
 dependencies[] = addressfield
+dependencies[] = eva
 dependencies[] = email
 dependencies[] = field_group
 dependencies[] = link
@@ -79,8 +80,11 @@ dependencies[] = better_formats
 dependencies[] = colorbox
 dependencies[] = diff
 dependencies[] = entity
+dependencies[] = feeds
 dependencies[] = google_fonts
 dependencies[] = insert
+dependencies[] = inline_entity_form
+dependencies[] = inline_conditions
 dependencies[] = jcaption
 dependencies[] = job_scheduler
 dependencies[] = libraries
@@ -91,6 +95,7 @@ dependencies[] = login_security
 dependencies[] = module_filter
 dependencies[] = pathauto
 dependencies[] = redirect
+dependencies[] = rules
 dependencies[] = robotstxt
 dependencies[] = socialshareprivacy
 dependencies[] = token
@@ -109,6 +114,7 @@ dependencies[] = views
 dependencies[] = views_bulk_operations
 dependencies[] = flexslider
 dependencies[] = views_ui
+dependencies[] = views_megarow
 ; Webform
 dependencies[] = webform
 ; Features
