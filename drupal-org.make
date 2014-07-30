@@ -189,7 +189,7 @@ projects[picture][subdir] = "contrib"
 projects[rules][version] = "2.7"
 projects[rules][subdir] = "contrib"
 projects[rules][patch][] = https://drupal.org/files/rules-fix-schema-defaults-1309144-8.patch
-projects[rules][patch][] = https://drupal.org/files/issues/rules-events-include-2120421-30.patch
+;projects[rules][patch][] = https://drupal.org/files/issues/rules-events-include-2120421-30.patch
 
 ;projects[styles][version] = "2.0-alpha8"
 ;projects[styles][subdir] = "contrib"
