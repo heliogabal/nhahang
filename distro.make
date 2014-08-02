@@ -9,3 +9,5 @@ projects[drupal][download][type] = "get"
 projects[drupal][download][url] = "http://files.aegir.cc/core/drupal-7.30.1.tar.gz"
 ; include the d.o. profile base
 includes[] = "drupal-org.make"
+includes[] = "search.make"
+includes[] = "commerce.make"
