@@ -11,7 +11,7 @@ projects[search_api_ranges][subdir] = "contrib"
 
 projects[facetapi][version] = 1.5
 projects[facetapi][subdir] = "contrib"
-projects[facetapi][patch][] = "http://drupal.org/files/facetapi-1616518-13-show-active-term.patch"
+;projects[facetapi][patch][] = "http://drupal.org/files/facetapi-1616518-13-show-active-term.patch"
 
 projects[facetapi_pretty_paths][version] = "1.0"
 projects[facetapi_pretty_paths][subdir] = "contrib"
