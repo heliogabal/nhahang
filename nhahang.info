@@ -40,10 +40,10 @@ dependencies[] = taxonomy
 dependencies[] = text
 dependencies[] = user
 ; Date/Time
-;dependencies[] = date
+dependencies[] = date
 ;dependencies[] = date_all_day
 ;dependencies[] = date_api
-;dependencies[] = date_popup
+dependencies[] = date_popup
 ;dependencies[] = date_tools
 ;dependencies[] = date_views
 ; Display Suite
@@ -76,7 +76,7 @@ dependencies[] = l10n_update
 ; Other
 ;dependencies[] = bundle_copy
 dependencies[] = better_formats
-;dependencies[] = breakpoints
+dependencies[] = breakpoints
 dependencies[] = colorbox
 dependencies[] = diff
 dependencies[] = entity
@@ -86,7 +86,7 @@ dependencies[] = google_fonts
 dependencies[] = insert
 dependencies[] = inline_entity_form
 dependencies[] = inline_conditions
-dependencies[] = jcaption
+;dependencies[] = jcaption
 dependencies[] = job_scheduler
 dependencies[] = libraries
 dependencies[] = linkit
@@ -106,6 +106,8 @@ dependencies[] = robotstxt
 dependencies[] = socialshareprivacy
 dependencies[] = token
 dependencies[] = transliteration
+dependencies[] = variable
+dependencies[] = strongarm
 ; Performance and scalability
 ;dependencies[] = entitycache
 ; Picture
