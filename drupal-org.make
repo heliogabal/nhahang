@@ -154,6 +154,9 @@ projects[socialshareprivacy][subdir] = "contrib"
 projects[system_status][version] = "2.7"
 projects[system_status][subdir] = "contrib"
 
+projects[strongarm][version] = "2.0"
+projects[strongarm][subdir] = "contrib"
+
 projects[title][version] = "1.0-alpha7"
 projects[title][subdir] = "contrib"
 
