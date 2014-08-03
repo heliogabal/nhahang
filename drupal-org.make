@@ -300,9 +300,9 @@ translations[] = de
 translations[] = vi
 
 ; +++++ Features +++++
-;projects[prod][type] = module
-;projects[prod][version] = "1.5"
-;projects[prod][download][type] = "git"
-;projects[prod][download][url] = "https://github.com/HanoiBerlin/prod.git"
-;projects[prod][location] = http://features.otro-mundo.org/fserver
-;projects[prod][subdir] = "features"
+projects[resto_content_type_restaurant][type] = module
+;projects[resto_content_type_restaurant][version] = "1.5"
+projects[resto_content_type_restaurant][download][type] = "git"
+projects[resto_content_type_restaurant][download][url] = "https://github.com/HanoiBerlin/resto_content_type_restaurant.git"
+;projects[resto_content_type_restaurant][location] = http://features.otro-mundo.org/fserver
+projects[resto_content_type_restaurant][subdir] = "features"
