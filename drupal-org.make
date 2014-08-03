@@ -25,7 +25,7 @@ projects[ckeditor][subdir] = "contrib"
 projects[ctools][version] = "1.4"
 projects[ctools][subdir] = "contrib"
 
-projects[date][version] = "2.7"
+projects[date][version] = "2.8"
 projects[date][subdir] = "contrib"
 
 projects[ds][version] = "2.6"
@@ -175,7 +175,7 @@ projects[transliteration][subdir] = "contrib"
 ;projects[entitycache][version] = "1.2"
 ;projects[entitycache][subdir] = "contrib"
 
-projects[picture][version] = "2.4"
+projects[picture][version] = "2.5"
 projects[picture][subdir] = "contrib"
 
 projects[rules][version] = "2.7"
@@ -229,7 +229,7 @@ projects[webform][subdir] = "contrib"
 
 ; shiny
 projects[shiny][type] = "theme"
-projects[shiny][version] = "1.5"
+projects[shiny][version] = "1.6"
 projects[shiny][subdir] = "contrib"
 
 ; omega

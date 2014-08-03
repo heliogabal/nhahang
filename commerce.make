@@ -149,7 +149,7 @@ projects[commerce_reports][subdir] = "commerce"
 ;projects[commerce_invoice_receipt][version] = "1.1"
 ;projects[commerce_invoice_receipt][subdir] = "commerce"
 
-projects[views_megarow][version] = 1.3
+projects[views_megarow][version] = "1.4"
 projects[views_megarow][subdir] = "contrib"
 
 projects[inline_entity_form][version] = 1.5
