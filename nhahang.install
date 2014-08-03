@@ -299,7 +299,8 @@ function nhahang_install() {
   drupal_get_messages();
 }
 
+/* muss vorher gelöscht werden
 function commerce_default_currency() {
   return variable_get('commerce_default_currency', 'EUR');
-}
+}*/
 
