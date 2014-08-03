@@ -198,8 +198,8 @@ projects[linkit][subdir] = "contrib"
 ;projects[image_resize_filter][version] = "1.14"
 ;projects[image_resize_filter][subdir] = "contrib"
 
-;projects[jcaption][version] = "1.4"
-;projects[jcaption][subdir] = "contrib"
+projects[jcaption][version] = "1.4"
+projects[jcaption][subdir] = "contrib"
 
 projects[panopoly_wysiwyg][version] = 1.9
 projects[panopoly_wysiwyg][subdir] = panopoly
