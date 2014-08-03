@@ -124,9 +124,6 @@ projects[jquery_update][subdir] = "contrib"
 projects[libraries][version] = "2.2"
 projects[libraries][subdir] = "contrib"
 
-projects[linkit][version] = "3.1"
-projects[linkit][subdir] = "contrib"
-
 projects[login_destination][version] = "1.1"
 projects[login_destination][subdir] = "contrib"
 
@@ -192,8 +189,11 @@ projects[tagclouds][subdir] = "contrib"
 ;projects[wysiwyg][version] = "2.2"
 ;projects[wysiwyg][subdir] = "contrib"
 
-;projects[link][version] = "1.2"
-;projects[link][subdir] = "contrib"
+projects[link][version] = "1.2"
+projects[link][subdir] = "contrib"
+
+projects[linkit][version] = "3.1"
+projects[linkit][subdir] = "contrib"
 
 ;projects[image_resize_filter][version] = "1.14"
 ;projects[image_resize_filter][subdir] = "contrib"
