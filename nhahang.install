@@ -8,7 +8,7 @@ function nhahang_install() {
  // include_once DRUPAL_ROOT . 'profiles/nhahang/nhahang.install';
   // nhahang_install();
   // Enable some blog blocks.
-  /*$default_theme = 'nhahang_theme';
+  $default_theme = 'nhahang_theme';
   $admin_theme = 'shiny';
 
   // disable all themes
@@ -30,7 +30,7 @@ function nhahang_install() {
     ->execute();
   variable_set('admin_theme', $admin_theme);
   // activate admin theme when editing a node
-  variable_set('node_admin_theme', '1');*/
+  variable_set('node_admin_theme', '1');
 
  // Any themes without keys here will get numeric keys and so will be enabled,
   // but not placed into variables.
