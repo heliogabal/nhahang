@@ -112,6 +112,9 @@ projects[diff][subdir] = "contrib"
 projects[entity][version] = "1.5"
 projects[entity][subdir] = "contrib"
 
+projects[field_collection][version] = "1.0-beta7"
+projects[field_collection] = "contrib"
+
 projects[google_fonts][version] = "2.3"
 projects[google_fonts][subdir] = "contrib"
 

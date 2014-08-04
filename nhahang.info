@@ -50,10 +50,12 @@ dependencies[] = date_popup
 dependencies[] = ds
 dependencies[] = ds_extras
 ; Fields
+dependencies[] = addanother
 dependencies[] = addressfield
 dependencies[] = eva
 dependencies[] = email
 dependencies[] = field_group
+dependencies[] = field_collection
 dependencies[] = link
 dependencies[] = name
 ; Input filters
