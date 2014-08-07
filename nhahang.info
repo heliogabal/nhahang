@@ -8,6 +8,7 @@ core = "7.x"
 ; ----------
 ; Administration
 dependencies[] = admin_menu
+dependencies[] = admin_views
 dependencies[] = fpa
 ; Advanced CSS/JS Aggregation
 dependencies[] = advagg
@@ -175,3 +176,14 @@ dependencies[] = search_api_db
 dependencies[] = search_api_ranges
 dependencies[] = search_api_solr
 dependencies[] = search_api_sorts
+
+; Maps
+dependencies[] = geofield
+dependencies[] = geocoder
+dependencies[] = geophp
+dependencies[] = ip_geoloc
+dependencies[] = leaflet
+dependencies[] = leaflet_markercluster
+dependencies[] = leaflet_more_maps
+dependencies[] = leaflet_mapbox
+;dependencies[] = leaflet_views

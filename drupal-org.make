@@ -55,12 +55,8 @@ projects[job_scheduler][subdir] = "contrib"
 projects[field_group][version] = "1.4"
 projects[field_group][subdir] = "contrib"
 
-
 projects[name][version] = "1.9"
 projects[name][subdir] = "contrib"
-
-projects[float_filter][version] = "1.1"
-projects[float_filter][subdir] = "contrib"
 
 projects[imagemagick][version] = "1.0"
 projects[imagemagick][subdir] = "contrib"
@@ -76,23 +72,6 @@ projects[mimemail][subdir] = "contrib"
 
 projects[simplenews][version] = "1.1"
 projects[simplenews][subdir] = "contrib"
-
-projects[file_entity][version] = "2.0-alpha3"
-projects[file_entity][subdir] = "contrib"
-
-projects[media][version] = "2.0-alpha3"
-projects[media][subdir] = "contrib"
-; http://drupal.org/node/1411340
-projects[media][patch][] = http://drupal.org/files/media-resize_images_in_wysiwyg-1411340-58.patch
-
-;projects[media_feeds][version] = "2.0-alpha1"
-;projects[media_feeds][subdir] = "contrib"
-
-projects[media_vimeo][version] = "2.0"
-projects[media_vimeo][subdir] = "contrib"
-
-projects[media_youtube][version] = "2.0-rc4"
-projects[media_youtube][subdir] = "contrib"
 
 projects[l10n_update][version] = "1.0"
 projects[l10n_update][subdir] = "contrib"
@@ -118,23 +97,20 @@ projects[field_collection] = "contrib"
 projects[google_fonts][version] = "2.3"
 projects[google_fonts][subdir] = "contrib"
 
-projects[insert][version] = "1.3"
-projects[insert][subdir] = "contrib"
-
 projects[jquery_update][version] = "2.4"
 projects[jquery_update][subdir] = "contrib"
 
 projects[libraries][version] = "2.2"
 projects[libraries][subdir] = "contrib"
 
+projects[link][version] = "1.2"
+projects[link][subdir] = "contrib"
+
 projects[login_destination][version] = "1.1"
 projects[login_destination][subdir] = "contrib"
 
 projects[login_security][version] = "1.9"
 projects[login_security][subdir] = "contrib"
-
-projects[mediaelement][version] = "1.2"
-projects[mediaelement][subdir] = "contrib"
 
 projects[module_filter][version] = "2.0-alpha2"
 projects[module_filter][subdir] = "contrib"
@@ -172,12 +148,6 @@ projects[transliteration][subdir] = "contrib"
 ;projects[underscore][version] = "2.1"
 ;projects[underscore][subdir] = "contrib"
 
-;projects[variable_clean][version] = "1.x-dev"
-;projects[variable_clean][subdir] = "contrib"
-
-;projects[entitycache][version] = "1.2"
-;projects[entitycache][subdir] = "contrib"
-
 projects[picture][version] = "2.5"
 projects[picture][subdir] = "contrib"
 
@@ -191,24 +161,6 @@ projects[rules][patch][] = https://drupal.org/files/rules-fix-schema-defaults-13
 
 projects[tagclouds][version] = "1.9"
 projects[tagclouds][subdir] = "contrib"
-
-;projects[wysiwyg][version] = "2.2"
-;projects[wysiwyg][subdir] = "contrib"
-
-projects[link][version] = "1.2"
-projects[link][subdir] = "contrib"
-
-projects[linkit][version] = "3.1"
-projects[linkit][subdir] = "contrib"
-
-;projects[image_resize_filter][version] = "1.14"
-;projects[image_resize_filter][subdir] = "contrib"
-
-projects[jcaption][version] = "1.4"
-projects[jcaption][subdir] = "contrib"
-
-projects[panopoly_wysiwyg][version] = 1.9
-projects[panopoly_wysiwyg][subdir] = panopoly
 
 projects[variable][version] = "2.5"
 projects[variable][subdir] = "contrib"
@@ -307,5 +259,12 @@ projects[resto_content_type_restaurant][type] = module
 ;projects[resto_content_type_restaurant][version] = "1.5"
 projects[resto_content_type_restaurant][download][type] = "git"
 projects[resto_content_type_restaurant][download][url] = "https://github.com/HanoiBerlin/resto_content_type_restaurant.git"
+;projects[resto_content_type_restaurant][location] = http://features.otro-mundo.org/fserver
+projects[resto_content_type_restaurant][subdir] = "features"
+
+projects[resto_content_type_restaurant][type] = module
+;projects[resto_content_type_restaurant][version] = "1.5"
+projects[resto_content_type_restaurant][download][type] = "git"
+projects[resto_content_type_restaurant][download][url] = "https://github.com/HanoiBerlin/resto_content_type_menu.git"
 ;projects[resto_content_type_restaurant][location] = http://features.otro-mundo.org/fserver
 projects[resto_content_type_restaurant][subdir] = "features"

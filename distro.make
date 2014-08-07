@@ -11,3 +11,5 @@ projects[drupal][download][url] = "http://files.aegir.cc/core/drupal-7.30.1.tar.
 includes[] = "drupal-org.make"
 includes[] = "search.make"
 includes[] = "commerce.make"
+includes[] = "maps.make"
+includes[] = "media.make"
